@@ -65,7 +65,11 @@
 
 /*Contact Section*/
 
-/*Poloriod Images*/
+/*Poloriod Images and Images*/
+img{
+  width: 200px;
+  height: 200px;
+}
 
 /*Footer section*/
 
