@@ -1,3 +1,19 @@
+:root{
+  --background-color: ;
+  --background-color-alt: ;
+  --text-color: ;
+  --text-color-alt: ;
+  --border-color: ;
+  --border-color-alt: ;
+  
+  --header-size: ;
+  --subtext-size: ;
+  --h1-size: ;
+  --h2-size: ;
+  --h3-size: ;
+  --p-size: ;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -5,7 +21,10 @@
   box-shadow: none;
 }
 
-/*Test Run on Tab Nav Bar*/
+/*Header Section*/
+
+/*Navigation Section*/
+/*Tab Nav Bar*/
 /*Style the tab menu*/
 .tab-menu{
   overflow: hidden;
@@ -41,3 +60,13 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+/*About Section*/
+
+/*Contact Section*/
+
+/*Poloriod Images*/
+
+/*Footer section*/
+
+/*Media Qeuries*/
