@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-shadow: none;
+}
+
+/*Test Run on Tab Nav Bar*/
+/*Style the tab menu*/
+.tab-menu{
+  overflow: hidden;
+  border-bottom: 2px solid #ccc;
+}
+
+/*Style the button inside the menu*/
+.tab-menu button{
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/*Change background color of a butons on hover*/
+.tab-menu button:hover{
+  background-color: #ddd;
+}
+
+/*Create an active/current tablink class*/
+.tab-menu button.active{
+  border-bottom: 2px solid #000;
+  font-weight: bold;
+}
+
+/*Style the tab content*/
+.tab-content{
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

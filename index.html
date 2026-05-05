@@ -10,13 +10,53 @@
 
 <body>
   <!--Header-->
+  <header class="N_Header">
+    <h1 class="main-header">Welcome to <span>N_LensMuse</span></h1>
+    <h2 class="sub-header">Where creativity create art</h2>
+  </header>
+  
+  <nav class="navigation-bar">
+    <div class="tab-menu">
+      <button class="tab-link active" onclick="openTab(event, 'Portrait')">Portraits</button>
+      <button class="tab-link" onclick="openTab(event, 'Landscape')">Landscapes</button>
+      <button class="tab-link" onclick="openTab(event, 'FriendsFamily')">Friends & Family</button>
+      <button class="tab-link" onclick="openTab(event, 'Nature')">Nature</button>
+    </div>
+  </nav>
   
   <!--Main-->
+  <main class="N_LensMuse-mainpage">
+    
+    <div id="Portrait" class="tab-content" style="display:block;">
+      <h3>Portrait</h3>
+      <p>Some Text....</p>
+    </div>
+    
+    <div id="Landscape" class="tab-content" style="display:none;">
+      <h3>Landscape</h3>
+      <p>Some text...</p>
+    </div>
+    
+    <div id="FriendsFamily" class="tab-content" style="display:none;">
+      <h3>Firends & Family</h3>
+      <p>Some text...</p>
+    </div>
+    
+    <div id="Landscape" class="tab-content" style="display:none;">
+      <h3>Landscape</h3>
+      <p>Some text...</p>
+    </div>
+    
+    <div id="Nature" class="tab-content" style="display:none;">
+      <h3>Nature</h3>
+      <p>Some text...</p>
+    </div>
+  </main>
   
   <!--Footer-->
   
   <!--Javascript-->
-  <script src="/N_LensMuse.js"></script>
+  <script src="/Tab-Navigation-Bar.js"></script>
 </body>
 
 </html>
