@@ -25,6 +25,12 @@
 
 /*Navigation Section*/
 /*Tab Nav Bar*/
+.nav-bar-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  text-align: center;
+}
 /*Style the tab menu*/
 .tab-menu{
   overflow: hidden;
@@ -62,13 +68,61 @@
 }
 
 /*About Section*/
+.about-grid{
+  display: grid;
+  grid-template-columns: 40% 10% 50%;
+  padding: 20px;
+}
+
+.about-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-img{
+  width: 400px;
+  height: 400px;
+}
 
 /*Contact Section*/
+.contact-me{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-me li{
+  display: inline-flex;
+  padding: 10px 20px;
+}
 
 /*Poloriod Images and Images*/
 img{
   width: 200px;
   height: 200px;
+}
+
+.poloroid, .poloriod{
+  background-color: white;
+  padding: 15px 15px 40px 15px;
+  width: auto;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.poloroid img, .poloriod img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.poloriod:hover, .poloroid:hover{
+  transform: rotate(0deg) scale(1.05);
+  cursor: pointer;
 }
 
 /*Footer section*/
